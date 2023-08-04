@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		26AE738E2A7D32AB00FF73ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE738D2A7D32AB00FF73ED /* AppDelegate.swift */; };
 		26AE73902A7D32AB00FF73ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE738F2A7D32AB00FF73ED /* SceneDelegate.swift */; };
-		26AE73922A7D32AB00FF73ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE73912A7D32AB00FF73ED /* ViewController.swift */; };
-		26AE73952A7D32AB00FF73ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AE73932A7D32AB00FF73ED /* Main.storyboard */; };
 		26AE73972A7D32AC00FF73ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AE73962A7D32AC00FF73ED /* Assets.xcassets */; };
 		26AE739A2A7D32AC00FF73ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AE73982A7D32AC00FF73ED /* LaunchScreen.storyboard */; };
+		26AE73A22A7D332800FF73ED /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE73A12A7D332800FF73ED /* View.swift */; };
+		26AE73A42A7D333300FF73ED /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE73A32A7D333300FF73ED /* Interactor.swift */; };
+		26AE73A62A7D334400FF73ED /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE73A52A7D334400FF73ED /* Presenter.swift */; };
+		26AE73A82A7D334F00FF73ED /* Entitiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE73A72A7D334F00FF73ED /* Entitiy.swift */; };
+		26AE73AA2A7D335900FF73ED /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE73A92A7D335900FF73ED /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26AE738A2A7D32AB00FF73ED /* CryptoCrazy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCrazy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AE738D2A7D32AB00FF73ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AE738F2A7D32AB00FF73ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26AE73912A7D32AB00FF73ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26AE73942A7D32AB00FF73ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26AE73962A7D32AC00FF73ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AE73992A7D32AC00FF73ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26AE739B2A7D32AC00FF73ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AE73A12A7D332800FF73ED /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		26AE73A32A7D333300FF73ED /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		26AE73A52A7D334400FF73ED /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		26AE73A72A7D334F00FF73ED /* Entitiy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entitiy.swift; sourceTree = "<group>"; };
+		26AE73A92A7D335900FF73ED /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				26AE738D2A7D32AB00FF73ED /* AppDelegate.swift */,
 				26AE738F2A7D32AB00FF73ED /* SceneDelegate.swift */,
-				26AE73912A7D32AB00FF73ED /* ViewController.swift */,
-				26AE73932A7D32AB00FF73ED /* Main.storyboard */,
 				26AE73962A7D32AC00FF73ED /* Assets.xcassets */,
 				26AE73982A7D32AC00FF73ED /* LaunchScreen.storyboard */,
 				26AE739B2A7D32AC00FF73ED /* Info.plist */,
+				26AE73A12A7D332800FF73ED /* View.swift */,
+				26AE73A32A7D333300FF73ED /* Interactor.swift */,
+				26AE73A52A7D334400FF73ED /* Presenter.swift */,
+				26AE73A72A7D334F00FF73ED /* Entitiy.swift */,
+				26AE73A92A7D335900FF73ED /* Router.swift */,
 			);
 			path = CryptoCrazy2;
 			sourceTree = "<group>";
@@ -127,7 +136,6 @@
 			files = (
 				26AE739A2A7D32AC00FF73ED /* LaunchScreen.storyboard in Resources */,
 				26AE73972A7D32AC00FF73ED /* Assets.xcassets in Resources */,
-				26AE73952A7D32AB00FF73ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +146,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26AE73922A7D32AB00FF73ED /* ViewController.swift in Sources */,
+				26AE73A82A7D334F00FF73ED /* Entitiy.swift in Sources */,
 				26AE738E2A7D32AB00FF73ED /* AppDelegate.swift in Sources */,
 				26AE73902A7D32AB00FF73ED /* SceneDelegate.swift in Sources */,
+				26AE73AA2A7D335900FF73ED /* Router.swift in Sources */,
+				26AE73A42A7D333300FF73ED /* Interactor.swift in Sources */,
+				26AE73A22A7D332800FF73ED /* View.swift in Sources */,
+				26AE73A62A7D334400FF73ED /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		26AE73932A7D32AB00FF73ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26AE73942A7D32AB00FF73ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		26AE73982A7D32AC00FF73ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +296,6 @@
 				INFOPLIST_FILE = CryptoCrazy2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +323,6 @@
 				INFOPLIST_FILE = CryptoCrazy2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
